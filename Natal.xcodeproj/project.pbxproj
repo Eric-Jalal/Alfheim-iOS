@@ -15,6 +15,7 @@
 		5EFA16AA20A76B7200EA90AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA16A820A76B7200EA90AA /* LaunchScreen.storyboard */; };
 		5EFA16B520A76B7300EA90AA /* NatalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA16B420A76B7300EA90AA /* NatalTests.swift */; };
 		5EFA16C020A76B7300EA90AA /* NatalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA16BF20A76B7300EA90AA /* NatalUITests.swift */; };
+		5EFA16CE20A786F700EA90AA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA16CD20A786F700EA90AA /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5EFA16BB20A76B7300EA90AA /* NatalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFA16BF20A76B7300EA90AA /* NatalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalUITests.swift; sourceTree = "<group>"; };
 		5EFA16C120A76B7300EA90AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFA16CD20A786F700EA90AA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5EFA16A820A76B7200EA90AA /* LaunchScreen.storyboard */,
 				5EFA16AB20A76B7200EA90AA /* Info.plist */,
 				5EFA16A320A76B7100EA90AA /* Natal.xcdatamodeld */,
+				5EFA16CD20A786F700EA90AA /* Launch Screen.storyboard */,
 			);
 			path = Natal;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				5EFA16AA20A76B7200EA90AA /* LaunchScreen.storyboard in Resources */,
 				5EFA16A720A76B7200EA90AA /* Assets.xcassets in Resources */,
+				5EFA16CE20A786F700EA90AA /* Launch Screen.storyboard in Resources */,
 				5EFA16A220A76B7100EA90AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
