@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EFA169D20A76B7100EA90AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA169C20A76B7100EA90AA /* AppDelegate.swift */; };
+		5EFA169F20A76B7100EA90AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA169E20A76B7100EA90AA /* ViewController.swift */; };
+		5EFA16A220A76B7100EA90AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA16A020A76B7100EA90AA /* Main.storyboard */; };
+		5EFA16A520A76B7100EA90AA /* Natal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA16A320A76B7100EA90AA /* Natal.xcdatamodeld */; };
+		5EFA16A720A76B7200EA90AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA16A620A76B7200EA90AA /* Assets.xcassets */; };
+		5EFA16AA20A76B7200EA90AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFA16A820A76B7200EA90AA /* LaunchScreen.storyboard */; };
+		5EFA16B520A76B7300EA90AA /* NatalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA16B420A76B7300EA90AA /* NatalTests.swift */; };
+		5EFA16C020A76B7300EA90AA /* NatalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA16BF20A76B7300EA90AA /* NatalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EFA16B120A76B7300EA90AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EFA169120A76B7100EA90AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFA169820A76B7100EA90AA;
+			remoteInfo = Natal;
+		};
+		5EFA16BC20A76B7300EA90AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EFA169120A76B7100EA90AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFA169820A76B7100EA90AA;
+			remoteInfo = Natal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EFA169920A76B7100EA90AA /* Natal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Natal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFA169C20A76B7100EA90AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EFA169E20A76B7100EA90AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EFA16A120A76B7100EA90AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EFA16A420A76B7100EA90AA /* Natal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Natal.xcdatamodel; sourceTree = "<group>"; };
+		5EFA16A620A76B7200EA90AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFA16A920A76B7200EA90AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFA16AB20A76B7200EA90AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFA16B020A76B7300EA90AA /* NatalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFA16B420A76B7300EA90AA /* NatalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalTests.swift; sourceTree = "<group>"; };
+		5EFA16B620A76B7300EA90AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFA16BB20A76B7300EA90AA /* NatalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFA16BF20A76B7300EA90AA /* NatalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalUITests.swift; sourceTree = "<group>"; };
+		5EFA16C120A76B7300EA90AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFA169620A76B7100EA90AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFA16AD20A76B7300EA90AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFA16B820A76B7300EA90AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EFA169020A76B7100EA90AA = {
+			isa = PBXGroup;
+			children = (
+				5EFA169B20A76B7100EA90AA /* Natal */,
+				5EFA16B320A76B7300EA90AA /* NatalTests */,
+				5EFA16BE20A76B7300EA90AA /* NatalUITests */,
+				5EFA169A20A76B7100EA90AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFA169A20A76B7100EA90AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA169920A76B7100EA90AA /* Natal.app */,
+				5EFA16B020A76B7300EA90AA /* NatalTests.xctest */,
+				5EFA16BB20A76B7300EA90AA /* NatalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFA169B20A76B7100EA90AA /* Natal */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA169C20A76B7100EA90AA /* AppDelegate.swift */,
+				5EFA169E20A76B7100EA90AA /* ViewController.swift */,
+				5EFA16A020A76B7100EA90AA /* Main.storyboard */,
+				5EFA16A620A76B7200EA90AA /* Assets.xcassets */,
+				5EFA16A820A76B7200EA90AA /* LaunchScreen.storyboard */,
+				5EFA16AB20A76B7200EA90AA /* Info.plist */,
+				5EFA16A320A76B7100EA90AA /* Natal.xcdatamodeld */,
+			);
+			path = Natal;
+			sourceTree = "<group>";
+		};
+		5EFA16B320A76B7300EA90AA /* NatalTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA16B420A76B7300EA90AA /* NatalTests.swift */,
+				5EFA16B620A76B7300EA90AA /* Info.plist */,
+			);
+			path = NatalTests;
+			sourceTree = "<group>";
+		};
+		5EFA16BE20A76B7300EA90AA /* NatalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EFA16BF20A76B7300EA90AA /* NatalUITests.swift */,
+				5EFA16C120A76B7300EA90AA /* Info.plist */,
+			);
+			path = NatalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFA169820A76B7100EA90AA /* Natal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFA16C420A76B7300EA90AA /* Build configuration list for PBXNativeTarget "Natal" */;
+			buildPhases = (
+				5EFA169520A76B7100EA90AA /* Sources */,
+				5EFA169620A76B7100EA90AA /* Frameworks */,
+				5EFA169720A76B7100EA90AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Natal;
+			productName = Natal;
+			productReference = 5EFA169920A76B7100EA90AA /* Natal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EFA16AF20A76B7300EA90AA /* NatalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFA16C720A76B7300EA90AA /* Build configuration list for PBXNativeTarget "NatalTests" */;
+			buildPhases = (
+				5EFA16AC20A76B7300EA90AA /* Sources */,
+				5EFA16AD20A76B7300EA90AA /* Frameworks */,
+				5EFA16AE20A76B7300EA90AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EFA16B220A76B7300EA90AA /* PBXTargetDependency */,
+			);
+			name = NatalTests;
+			productName = NatalTests;
+			productReference = 5EFA16B020A76B7300EA90AA /* NatalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EFA16BA20A76B7300EA90AA /* NatalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFA16CA20A76B7300EA90AA /* Build configuration list for PBXNativeTarget "NatalUITests" */;
+			buildPhases = (
+				5EFA16B720A76B7300EA90AA /* Sources */,
+				5EFA16B820A76B7300EA90AA /* Frameworks */,
+				5EFA16B920A76B7300EA90AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EFA16BD20A76B7300EA90AA /* PBXTargetDependency */,
+			);
+			name = NatalUITests;
+			productName = NatalUITests;
+			productReference = 5EFA16BB20A76B7300EA90AA /* NatalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFA169120A76B7100EA90AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Natal;
+				TargetAttributes = {
+					5EFA169820A76B7100EA90AA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					5EFA16AF20A76B7300EA90AA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5EFA169820A76B7100EA90AA;
+					};
+					5EFA16BA20A76B7300EA90AA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5EFA169820A76B7100EA90AA;
+					};
+				};
+			};
+			buildConfigurationList = 5EFA169420A76B7100EA90AA /* Build configuration list for PBXProject "Natal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EFA169020A76B7100EA90AA;
+			productRefGroup = 5EFA169A20A76B7100EA90AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFA169820A76B7100EA90AA /* Natal */,
+				5EFA16AF20A76B7300EA90AA /* NatalTests */,
+				5EFA16BA20A76B7300EA90AA /* NatalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFA169720A76B7100EA90AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFA16AA20A76B7200EA90AA /* LaunchScreen.storyboard in Resources */,
+				5EFA16A720A76B7200EA90AA /* Assets.xcassets in Resources */,
+				5EFA16A220A76B7100EA90AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFA16AE20A76B7300EA90AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFA16B920A76B7300EA90AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFA169520A76B7100EA90AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFA169F20A76B7100EA90AA /* ViewController.swift in Sources */,
+				5EFA169D20A76B7100EA90AA /* AppDelegate.swift in Sources */,
+				5EFA16A520A76B7100EA90AA /* Natal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFA16AC20A76B7300EA90AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFA16B520A76B7300EA90AA /* NatalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFA16B720A76B7300EA90AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFA16C020A76B7300EA90AA /* NatalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EFA16B220A76B7300EA90AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EFA169820A76B7100EA90AA /* Natal */;
+			targetProxy = 5EFA16B120A76B7300EA90AA /* PBXContainerItemProxy */;
+		};
+		5EFA16BD20A76B7300EA90AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EFA169820A76B7100EA90AA /* Natal */;
+			targetProxy = 5EFA16BC20A76B7300EA90AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EFA16A020A76B7100EA90AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFA16A120A76B7100EA90AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFA16A820A76B7200EA90AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFA16A920A76B7200EA90AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFA16C220A76B7300EA90AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EFA16C320A76B7300EA90AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFA16C520A76B7300EA90AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Natal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natal.io.Natal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EFA16C620A76B7300EA90AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Natal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natal.io.Natal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EFA16C820A76B7300EA90AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NatalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natal.io.NatalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Natal.app/Natal";
+			};
+			name = Debug;
+		};
+		5EFA16C920A76B7300EA90AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NatalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natal.io.NatalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Natal.app/Natal";
+			};
+			name = Release;
+		};
+		5EFA16CB20A76B7300EA90AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NatalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natal.io.NatalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Natal;
+			};
+			name = Debug;
+		};
+		5EFA16CC20A76B7300EA90AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NatalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = natal.io.NatalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Natal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFA169420A76B7100EA90AA /* Build configuration list for PBXProject "Natal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFA16C220A76B7300EA90AA /* Debug */,
+				5EFA16C320A76B7300EA90AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFA16C420A76B7300EA90AA /* Build configuration list for PBXNativeTarget "Natal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFA16C520A76B7300EA90AA /* Debug */,
+				5EFA16C620A76B7300EA90AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFA16C720A76B7300EA90AA /* Build configuration list for PBXNativeTarget "NatalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFA16C820A76B7300EA90AA /* Debug */,
+				5EFA16C920A76B7300EA90AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFA16CA20A76B7300EA90AA /* Build configuration list for PBXNativeTarget "NatalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFA16CB20A76B7300EA90AA /* Debug */,
+				5EFA16CC20A76B7300EA90AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EFA16A320A76B7100EA90AA /* Natal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EFA16A420A76B7100EA90AA /* Natal.xcdatamodel */,
+			);
+			currentVersion = 5EFA16A420A76B7100EA90AA /* Natal.xcdatamodel */;
+			path = Natal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EFA169120A76B7100EA90AA /* Project object */;
+}
